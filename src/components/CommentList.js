@@ -53,7 +53,7 @@ export default function CommentList(props) {
           <Box
             component="form"
             sx={{
-              "& .MuiTextField-root": { m: 1, width: "20ch" },
+              "& .MuiTextField-root": { m: 1, width: "30ch" },
             }}
             noValidate
             autoComplete="off"

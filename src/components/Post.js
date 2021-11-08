@@ -18,7 +18,7 @@ export default function Post(props) {
   const post = props.post;
 
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ maxWidth: 400}}>   
       <CardHeader
         avatar={
           <Avatar
@@ -35,10 +35,10 @@ export default function Post(props) {
         title={post.user.name}
         subheader="September 14, 2016"
       />
-      <CardMedia
+      <CardMedia       
         component="img"
-        height="194"
-        image={post.content_image}
+        height="690"
+        image={post.content_image}        
         alt="Propaganda"
       />
       <CardContent>

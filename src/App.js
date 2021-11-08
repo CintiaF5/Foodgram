@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Post from "./components/Post";
 import Menu from "./components/Menu";
+import LoopIcon from '@material-ui/icons/Loop';
 
 const axios = require("axios");
 
@@ -31,7 +32,7 @@ function App() {
         </header>
 
         {isLoading ? (
-          <div>Carregando</div>
+          <div className="loading" >Carregando <LoopIcon></LoopIcon></div>
         ) : (
           <div className="text-post">
             {posts.map((post) => {
